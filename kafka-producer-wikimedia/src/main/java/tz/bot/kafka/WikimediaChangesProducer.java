@@ -32,7 +32,7 @@ public class WikimediaChangesProducer {
         EventSource eventSource=builder.build();
         eventSource.start();
 
-        TimeUnit.SECONDS.sleep(10);
+        TimeUnit.MINUTES.sleep(10);
 
     }
 
